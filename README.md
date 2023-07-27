@@ -28,40 +28,51 @@ By undertaking exploratory data analysis with these tools, we can uncover key pa
 
 
 # Installation
-pyodbc
- catboost
- python-dotenv
- pandas
- numpy
- matplotlib
- seaborn
- scipy
- pmdarima
+•	pyodbc
+•	catboost
+•	python-dotenv
+•	pandas
+•	numpy
+•	matplotlib
+•	seaborn
+•	scipy
+•	pmdarima
+
 
 # Packages
-import pyodbc
- import pandas as pd
- import numpy as np
- import matplotlib.pyplot as plt
- import seaborn as sns
- from statsmodels.tsa.seasonal import seasonal_decompose
- from statsmodels.tsa.stattools import adfuller
- from sklearn.model_selection import train_test_split
- from dotenv import dotenv_values
- from scipy import stats
- from statsmodels.tsa.arima.model import ARIMA
- from statsmodels.tsa.statespace.sarimax import SARIMAX
- from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
- from xgboost import XGBRegressor
- from pmdarima.arima import auto_arima
- from sklearn.model_selection import GridSearch
- from catboost import CatBoostRegressor
- from sklearn.metrics import mean_absolute_error, mean_squared_error, mean_squared_log_error
- import warnings
- warnings.filterwarnings("ignore")
+•	import pyodbc
+•	 import pandas as pd
+•	 import numpy as np
+•	 import matplotlib.pyplot as plt
+•	 import seaborn as sns
+•	 from statsmodels.tsa.seasonal import seasonal_decompose
+•	 from statsmodels.tsa.stattools import adfuller
+•	 from sklearn.model_selection import train_test_split
+•	 from dotenv import dotenv_values
+•	 from scipy import stats
+•	 from statsmodels.tsa.arima.model import ARIMA
+•	 from statsmodels.tsa.statespace.sarimax import SARIMAX
+•	 from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
+•	 from xgboost import XGBRegressor
+•	 from pmdarima.arima import auto_arima
+•	 from sklearn.model_selection import GridSearch
+•	 from catboost import CatBoostRegressor
+•	 from sklearn.metrics import mean_absolute_error, mean_squared_error, mean_squared_log_error
+•	 import warnings
+•	 warnings.filterwarnings("ignore")
 
  ## Authors and Acknowledgement
  The table provided presents the initial contributors of the project, along with their corresponding Github IDs and the articles they have written to document their unique perspectives on the project.
+Project LP3	Contributors	Github Profile
+1.	Enyonam Adzo Agbenorhevi	EnyonamAgbenorhevi
+
+2.	Michael Dzifa Kumassah	Codedzifa
+3.	Samuel Amoako Boateng	fusersam
+
+4.	Herbet Djanie	Herb-real
+
+
+
 
 ## Conclusion
 In summary, this project revolves around addressing a time series forecasting challenge. Through the application of time-dependent data and advanced modeling techniques, we have achieved accurate predictions and gained valuable insights from the temporal patterns present in the dataset. The utilization of time series analysis empowers us to make well-informed decisions and strategically plan for the future, setting the stage for successful outcomes and effective foresight in various domains.
